@@ -1,0 +1,57 @@
+body {
+  font: 100% open-sans, Helvetica, sans-serif;
+  background-color: #F64747;
+  color: #ffffff;
+}
+
+h1 {
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+/* This CSS will print because %message-shared is extended. */
+h1 {
+  padding: 10px;
+}
+
+.class {
+  margin: 20px;
+}
+.class:hover {
+  color: yellow;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+  font-size: 12px;
+}
+.form-control:focus {
+  border-color: #ffffff;
+  box-shadow: 0 0 0 1px #ffffff;
+  background-color: rgba(255, 255, 255, 0.075);
+}
+.form-control::placeholder {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.btn {
+  background-color: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+}
+.btn:focus {
+  border-color: #ffffff;
+  box-shadow: 0 0 0 1px #ffffff;
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+select.form-control:not([size]):not([multiple]) {
+  height: auto;
+}
+
+/*# sourceMappingURL=main.css.map */
