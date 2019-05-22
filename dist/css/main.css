@@ -1,5 +1,5 @@
 body {
-  font: 100% poppins, open-sans, Helvetica, sans-serif;
+  font: 100% playfair display, poppins, open-sans, Helvetica, sans-serif;
   color: #ffffff;
 }
 
@@ -10,15 +10,11 @@ body {
 /*css for nav */
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand {
   color: #ffffff;
+  font-style: italic;
 }
 
-h1 {
-  color: #ffffff;
-}
-
-/* This CSS will print because %message-shared is extended. */
-h1 {
-  padding: 10px;
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+  color: #edf0fc;
 }
 
 .class {
@@ -66,6 +62,12 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.parallax-1 .overlay-color {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 .parallex-section {
   padding: 0;
@@ -80,16 +82,20 @@ h1 {
   padding: 0px 50px;
   height: 100%;
 }
+.overlay-section div {
+  padding: 10px;
+}
 
 .overlay-section-name {
   position: absolute;
-  left: 0px;
-  bottom: 0px;
+  left: 120px;
+  bottom: 100px;
 }
 
 .about-section, .footer-section {
   padding: 50px 0px;
   background-color: #edf0fc;
+  color: #5569dc;
 }
 
 .education-section, .skills-section, .interest-section {
@@ -262,6 +268,18 @@ h1 {
 
 .copyright-section {
   padding: 20px 0px;
+}
+
+.heading {
+  font-style: italic;
+}
+
+.sub-content {
+  color: #1C2349;
+}
+
+.pd-bottom-10 {
+  padding-bottom: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
