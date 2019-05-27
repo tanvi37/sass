@@ -1,5 +1,6 @@
 @import 'base/color';
 @import 'base/bar';
+@import 'base/loader';
 
 $font-stack: playfair display, poppins, open-sans, Helvetica, sans-serif;
 
@@ -123,6 +124,7 @@ body {
   display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items:flex-end;
 }
 .copyright-section{
   padding: 20px 0px;
@@ -141,5 +143,29 @@ body {
   h2{
   font-style: italic;
   color: $content-color;
+  }
+  .social{
+  color: $content-color;
+  padding-top:26px;
+
+  i{
+  font-size:20px;
+  padding-right:15px
+  }
+
+  }
+  
+  h6{
+   color: $content-color;
+  }
+  .space{
+  padding-bottom:40px
+  }
+  .btn{
+  background-color:$primary-bg-color
+  }
+  .center-vertical i{
+  font-size:40px;
+
   }
 }
