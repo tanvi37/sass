@@ -225,6 +225,10 @@
   display: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font: 100% playfair display, poppins, open-sans, Helvetica, sans-serif;
   color: #ffffff;
@@ -232,6 +236,14 @@ body {
 
 .main-background {
   background-color: #5569dc;
+}
+
+a {
+  color: #ffffff;
+}
+a:hover {
+  color: #edf0fc;
+  text-decoration: none;
 }
 
 /*css for nav */
@@ -242,6 +254,12 @@ body {
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
   color: #edf0fc;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
 }
 
 .class {
@@ -335,6 +353,9 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: flex-end;
+}
+.center-vertical a {
+  color: #0056b3;
 }
 
 .copyright-section {

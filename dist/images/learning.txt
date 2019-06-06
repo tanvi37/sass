@@ -1,0 +1,57 @@
+1) Roles and responsibilities? 
+
+Task List:(Title and link to template) 
+
+Read: http://istqbexamcertification.com/what-are-the-roles-and-responsibilities-of-a-tester/
+
+
+
+2) Software testing and Its types
+
+Task List:(Title and link to template) 
+
+
+Read: 
+https://www.codeproject.com/Tips/351122/What-is-software-testing-What-are-the-different-ty
+http://softwaretestingfundamentals.com/software-testing-types/
+https://www.softwaretestinghelp.com/types-of-software-testing/
+https://www.testingexcellence.com/types-of-software-testing-complete-list/
+
+
+3) Soft Testing Life Cycle
+
+Task List:(Title and link to template) 
+
+
+Read: 
+https://www.guru99.com/software-testing-life-cycle.html
+https://www.softwaretestingclass.com/software-testing-life-cycle-stlc/
+www.youtube.com/watch?v=Dq5IYYqnnGQ
+
+
+4) Test Plan
+Task List:(Title and link to template) 
+
+
+Read: 
+https://www.youtube.com/watch?v=Vdm1Lh540LM
+https://www.youtube.com/watch?v=4UldhHFaLek
+
+5) Test Case
+Task List:(Title and link to template) 
+
+
+Read: 
+https://www.youtube.com/watch?v=wMN0pCyjQ9E
+https://www.youtube.com/watch?v=BBmA5Qp6Ghk
+
+6) Bug Report
+Task List:(Title and link to template) 
+
+
+Read: 
+https://www.youtube.com/watch?v=EKv85-K_6w4
+https://www.youtube.com/watch?v=NpDZ2NJmDrE
+
+
+
