@@ -1,7 +1,7 @@
 .skills {
   width: 80%;
   max-width: 960px;
-  height: 783px;
+  height: 400px;
   margin: auto;
   position: relative;
 }
@@ -75,9 +75,6 @@
 .chart--prod .chart__title {
   animation-delay: 3.3s;
 }
-.chart--design .chart__title {
-  animation-delay: 4.5s;
-}
 
 .chart--horiz {
   overflow: hidden;
@@ -131,15 +128,6 @@
 }
 .chart--prod .chart__bar:nth-of-type(1) {
   animation-delay: 4s;
-}
-.chart--design .chart__bar:nth-of-type(3) {
-  animation-delay: 5.6s;
-}
-.chart--design .chart__bar:nth-of-type(2) {
-  animation-delay: 5.4s;
-}
-.chart--design .chart__bar:nth-of-type(1) {
-  animation-delay: 5.2s;
 }
 
 .chart__label {
