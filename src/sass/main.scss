@@ -153,6 +153,12 @@ z-index:20;
 .sub-content{
   color:$content-color;
   line-height:40px;
+  .space-less div{
+  line-height:30px;
+  }
+}
+.pd-top-20{
+  padding-top:20px;
 }
 .pd-bottom-10{
   padding-bottom:10px;

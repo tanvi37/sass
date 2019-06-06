@@ -370,6 +370,13 @@ a:hover {
   color: #1C2349;
   line-height: 40px;
 }
+.sub-content .space-less div {
+  line-height: 30px;
+}
+
+.pd-top-20 {
+  padding-top: 20px;
+}
 
 .pd-bottom-10 {
   padding-bottom: 10px;
