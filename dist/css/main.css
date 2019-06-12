@@ -307,6 +307,15 @@ a:hover {
   position: relative;
 }
 
+@media (max-width: 970px) {
+  .overlay-section {
+    width: 100%;
+  }
+
+  .overlay-section-name {
+    display: none;
+  }
+}
 .overlay-section {
   position: absolute;
   background-color: #5569dc;

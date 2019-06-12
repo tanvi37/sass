@@ -109,6 +109,15 @@ z-index:20;
   padding:0;
   position:relative
 }
+@media (max-width: 970px) {
+  .overlay-section{
+  width:100%
+  }
+  .overlay-section-name{
+  display:none;
+  }
+}
+
 .overlay-section{
   position: absolute;
   background-color: $primary-bg-color;
